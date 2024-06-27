@@ -1,0 +1,32 @@
+JFDML JFormDesigner: "8.2.3.0.386" Java: "17.0.10" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp panel1::t:::x}"
+			"$verticalGroup": "par l {comp panel1::t:::x}"
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {par l {seq {space :p:368:p, par l:::p {comp txt1::::459:x, comp textField2::::459:x}}, seq l {space :p:411:p, comp button1:::p::p}}, space ::486:x}}"
+				"$verticalGroup": "par l {seq t {space ::142:x, comp textField2:::p::p, space s:::p, comp txt1:::p::p, space :p:112:p, comp button1:::p::p, space :p:176:p}}"
+			} ) {
+				name: "panel1"
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"text": "text"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "txt1"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField2"
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 1315, 545 )
+		} )
+	}
+}
